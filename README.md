@@ -11,6 +11,13 @@ Ths change will inevitably affect those using older < 0.2.x versions of restler.
 
 See [Version History](https://github.com/danwrong/restler/wiki/Version-History) for changes
 
+Forked
+------
+
+This was forked on August 11, 2013 to cater the following:
+
+* Compatibility with 0.10.x EventEmitter
+* rejectUnauthorized option
 
 Features
 --------
@@ -113,6 +120,7 @@ Also you can use `json()` and `postJson()` methods.
 * `multipart` If set the data passed will be formated as `multipart/form-encoded`. See multipart example below. Defaults to `false`.
 * `client` A http.Client instance if you want to reuse or implement some kind of connection pooling. Defaults to empty.
 * `followRedirects` If set will recursively follow redirects. Defaults to `true`.
+* `rejectUnauthorized` Making requests to servers with self-signed certificates
 
 
 Example usage
