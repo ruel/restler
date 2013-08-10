@@ -1,8 +1,18 @@
 {
     "name": "restler",
     "version": "2.0.1",
-    "description": "An HTTP client library for node.js",
-    "contributors": [{ "name": "Dan Webb", "email": "dan@danwebb.net" }],
+    "private": true,
+    "description": "An HTTP client library for node.js (Forked 08112013)",
+    "contributors": [
+        { 
+            "name": "Dan Webb", 
+            "email": "dan@danwebb.net" 
+        },
+        {
+            "name": "Ruel Pagayon",
+            "email": "ruel@ruel.me"
+        }
+    ],
     "homepage": "https://github.com/danwrong/restler",
     "directories" : { "lib" : "./lib" },
     "main" : "./lib/restler",
